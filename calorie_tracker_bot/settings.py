@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-5rajmm=%vh3)rh!ksx+i(*txr_h3@q9-)!82)2#c$$3^shq+a%'
+SECRET_KEY = '***'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'calorie_tracker',  # Name of your database
         'USER': 'calorie_user',     # Database username
-        'PASSWORD': 'Riyie2Hoomahtho', # Database password
+        'PASSWORD': '****', # Database password
         'HOST': 'localhost',        # Host (use IP if not local)
         'PORT': '5432',             # Default PostgreSQL port
     }
